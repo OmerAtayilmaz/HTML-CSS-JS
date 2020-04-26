@@ -1,0 +1,162 @@
+
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} 
+textarea {overflow:auto;}
+
+
+.ust
+{
+    width:100%;
+    height:54px;
+    background:rgb(36, 37, 37);
+}
+.menu
+{
+    background:rgb(36, 37, 37);;
+    width:700px;
+    height:54px;
+    margin:0 auto;
+    border-radius: 15px;
+    position: relative;
+    z-index: 3;
+}
+.menu ul li 
+{
+    position: relative;
+    float:left;
+}
+.menu ul li a 
+{
+    display: block;
+    width:100px;
+    height:36px;
+    padding: 15px 0 0 0 ;
+    text-decoration: none;
+    font:bold 14px tahoma;
+    background:rgb(36, 37, 37);
+    text-align: center;
+    transition: 0.5s;
+    color:rgb(4, 200, 235);
+    
+}
+
+.menu ul li a:hover
+{
+    font-size:16px;
+  border-bottom: 3px solid #fff;
+    color:#fff;
+    transition: 0.3s;   
+}
+
+.menu ul li ul 
+{
+    display: none;
+    position: absolute;
+    left:0;
+    top:54px;
+}
+
+.menu ul li:hover ul 
+{
+    display:block;
+}
+.menu ul li ul li a
+{
+    font:bold 12px tahoma;
+    transition: none;
+    color:rgb(4, 200, 235);
+}
+.menu ul li ul li a:hover
+{
+    font:bold 14px tahoma;
+    color:#fff;
+    border-bottom: 3px solid #fff;
+    background:rgb(59, 61, 61);
+    transition: none;
+}
+.icerik
+{
+    width:100%;
+    background:#c52;
+    height:550px;
+    padding: 50px 0 0 0;
+    
+}
+.sosyal
+{
+
+    width:100%;
+    background:rgb(36, 37, 37);
+    height:96px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.tanitim
+{
+  background:rgb(36,37,37);
+  height:480px;
+    width:80%;
+    margin:0 auto;
+    border:2px solid rgb(4, 200, 235);;
+    text-align: center;
+    font: 15px tahoma;
+    color:rgb(174, 179, 174);
+    padding: 10px 0 0 0;
+}
+.alt
+{
+    text-align: center;
+    width:100%;
+    height: 77px;
+    padding: 0 0 20px 0 ;
+    background:rgb(36, 37, 37);
+}
+
+.kutu
+{
+    width:300px;
+    height:30px;
+    padding: 14px 0 0 0;
+    margin:0 0 0 15px;
+
+}
+.ad
+{
+    float:right;
+}
+.yazi2
+{
+    color:rgb(174, 179, 174);
+}
+p
+{
+    font:15px tahoma;
+}
+.logo
+{
+    margin: 0 0 20px 550px;
+    width:256px;
+    height:256px;
+    background: url("images/logo.png") no-repeat;
+}
+.kaydir
+{
+    margin:0 0 0 120px;
+}

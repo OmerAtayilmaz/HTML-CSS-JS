@@ -1,0 +1,31 @@
+
+td
+{
+    text-align: center;
+    background:#da2;
+    color:#fff;
+    font:15px arial;
+    transition: 0.3s;
+}
+td:hover
+{
+    background:#fff;
+    color:#da2;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#a1
+{
+    background:url("images/sablon/sablon.jpg");
+}
+
+#a1:hover
+{
+    background: url("images/sablon/sablon2.jpg");
+}
+table
+{
+    background:#fff;
+    border-radius: 5px;
+}
