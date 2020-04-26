@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Tempo Soft</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="file:///D|/temposoft/stil.css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body bgcolor="#666666">
+<div class="ustkutu">
+ <div class="baslik"><a href="file:///D|/temposoft/index.html">TEMPO SOFTWARE</a></div>
+	<div class="ustmenu">
+     
+    	<ul>
+        	<li><a href="file:///D|/temposoft/index.html">MainPage</a></li>
+            <li><a href="file:///D|/temposoft/automation.html">Automations</a></li>
+            <li><a href="file:///D|/temposoft/games.html">Games</a>
+            	<ul>
+                	<li><span><a href="file:///D|/temposoft/cpgames.html">Comuter Games</a></span></li>
+                	<li><span><a href="file:///D|/temposoft/andgames.html">Android Games</a></span></li>
+                </ul>
+            </li>
+            <li><a href="file:///D|/temposoft/about.html">About Us</a></li>
+        </ul>
+    </div>
+</div>
+<div class="icerik"><!-- TemplateBeginEditable name="EditRegion1" --><img src="file:///D|/temposoft/images/Untitled-1.png" /><!-- TemplateEndEditable --></div>
+<div class="information"> 
+<span class="yazi1">Tüm hakları saklıdır &copy2018 </span><br/>
+<span class="yazi2">&copy;Tempo Software 2019-2020 </span><br>
+<span class="yazi3">Bu sitede gördüğünüz her sanal/reel teknolojik aygıt ve yazılım <a href="file:///D|/temposoft/licance.html">Lisanslı</a> olarak Tempo Yazılım şirketinin ürünüdür.</span>
+<br><span class="yazi4"> <a href="file:///D|/temposoft/ref.html">Referanslar</a> | <a href="file:///D|/temposoft/ortak.html">Ortaklar</a> | <a href="file:///D|/temposoft/kadro.html">Kadro</a> | <a href="file:///D|/temposoft/adres.html">Adres</a> | <a href="file:///D|/temposoft/iletisim.html">iletişim</a></span>
+</div>
+</body>
+</html>

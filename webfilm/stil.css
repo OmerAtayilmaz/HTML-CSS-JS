@@ -1,0 +1,189 @@
+.kapsayici
+{
+    width:1200px;
+    height:670px;
+    background: rgb(32, 32, 34);
+    margin:0 auto;
+}
+.ustkutu
+{
+    width:1200px;
+    height:28px;
+    border-bottom: 2px solid #fff;
+    background:rgb(83, 92, 105);
+}
+.ustmenu
+{
+    margin:0 auto;
+    float: right;
+    width:1000px;
+    height:118px;
+    border-bottom: 2px solid #fff;
+    background:rgb(32, 32, 34);
+    
+}
+.solmenu
+{
+    width:200px;
+    height:640px;
+    background:rgb(176, 238, 238);
+}
+.alt
+{
+    width:50%;
+    height:57px;
+    background:#000;
+    margin:5px 0 0 400px;
+    border-radius: 10px;
+    color:gray;
+    text-align: center;
+    font:11px arial;
+    padding:3px 0 0 0;
+    float:left;
+
+}
+.ustkutumenu
+{
+    float: right;
+    height: 28px;
+    width:440px;
+}
+.ustkutumenu ul 
+{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+.ustkutumenu ul li 
+{
+    float:left;
+}
+.ustkutumenu ul li a 
+{
+    display: block;
+    width:85px;
+    height:30px;
+    margin:5px 0 0 0 ;
+    padding: 0 0 0 25px;
+    text-decoration: none;
+    color:gray;
+    font:bold 16px Corbel;
+  
+}
+.ustkutumenu ul li a:hover
+{
+    text-decoration: underline;
+    color:#fff;
+    border-right:1px double  #fff;
+    width:82px;
+}
+.ustmenuicerik
+{
+ width:104px;
+ height: 64px;
+ border-radius: 60px;
+ background:#fff;
+ color:#000;
+ margin: 10px 0 0 18px;
+ float:left;
+ border: 0 solid rgb(83, 92, 105);
+ padding: 40px 0 0 0;   
+ text-align: left;
+
+}
+.yazi
+{
+ 
+    color:rgb(176, 201, 238);
+    padding: 0 0 0 25px;
+    font:bold 15px helvetica;
+    transition: 0.3s;
+
+}
+.yazi a 
+{
+    text-decoration: none;
+    color:rgb(176, 201, 238);
+}
+.ustmenuicerik:hover 
+{
+    border: 2px solid #fff;
+    background:rgb(176, 201, 238);
+    transition: 0.3s;
+    width:100px;
+    height: 60px;
+   
+}
+.ustmenuicerik:hover a 
+{
+    color:#fff;
+   
+}
+.ustmenuicerik:hover .yazi
+{
+    
+    color:#fff;
+    transition: 0.3s;
+    text-shadow: 0px 12px 4px #fff;
+}
+.baslik
+{
+    width:200px;
+    height:27px;
+    background:orange;
+    color:#fff;
+    font:bold 18px helvetica;
+    text-align: center;
+    padding: 3px 0 0 0;
+}
+.filmlist ul 
+{
+    
+    margin:0 0 0 2px;
+    padding: 0;
+    list-style: none;
+}
+
+.filmlist ul li a 
+{
+    text-decoration: none;
+    color:rgb(30, 53, 87);
+    display: block;
+    height: 20px;
+    width:190px;
+    background: #fff;
+    padding:  0 0 0 4px;
+    font-size:16px;
+    margin:4px 0 0 0;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.filmlist ul li a:hover
+{
+    text-decoration: underline;
+    background:rgb(57, 132, 245);
+    color:#fff;
+    height:20px;
+    padding:  0 0 0 19px;
+    width:175px;
+    transition: 0.5s;
+}
+.icerik
+{
+    width:1000px;
+    height:520px;
+    background:rgb(83, 92, 105);
+    float:left;
+    margin:-520px  0  0 200px;
+	background:url(images/icerik1.png) no-repeat;
+}
+.yazi3
+{
+  font:11px;	
+}
+.alt a 
+{text-decoration:none; color:gray; font:10px;}
+.alt a:hover
+{text-decoration:underline;}
+.alt .asagi {margin:4px 0 0 0;}
