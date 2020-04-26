@@ -1,0 +1,69 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+/***** RESET *****/
+body {background:#fff;}
+.ustkutu { width:100%; height:40px; background:#000;}
+.ustmenu { width:70%; height:40px; margin:0 auto; float:left; }
+.ustmenu ul li {float:left; position:relative;}
+.ustmenu ul li a {display:block; width:160px; height:28px; text-decoration:none; margin:0 0 0 80px; text-align:center; color:gray; font: 14px tahoma; 
+ padding:10px 0 0 0;}
+.ustmenu ul li:hover a{color:white; transition:0.2s;}
+.ustmenu ul li ul li a {font:11px tahoma;}
+.ustmenu ul li ul { display:none; position:absolute;left:0;top:40px;}
+.ustmenu ul li:hover ul {display:block; transition:0.2s;}
+.ustmenu ul li:hover ul li a { display:block; width:170px; height:30px; background:#333; color:gray; transition:0.2s;}
+.ustmenu ul li ul li span:hover a { color:#fff; font:12px tahoma;}
+.icerik {width:100%;height:610px; text-align:center; background:#fff; margin:0 0 20px 0;}
+.information { margin:-15px auto 0 auto;width:70%;  height:62px; background:#000;border-radius:15px;text-align:center; padding:8px 0 0 0; }
+.yazi1 {color:gray; font:11px tahoma;}
+.yazi2 {color:gray; font:10px tahoma;}
+.yazi3 {color:gray; font:10px tahoma;}
+.information a {text-decoration:none; color:Gray;}
+.information a:hover {text-decoration:underline;}
+.yazi4 {color:Gray; font:10px tahoma;}
+.icerik img {margin:80px 0 0 0;}
+.baslik {float:left; color:#CCC; font:bold 18px arial; margin:10px 0 0 30px;}
+.baslik a {text-decoration:none; color:#ccc;}
+.autokutu { width:80%; height:560px; background:#3C9; margin:10px auto 0 auto; border-radius:20px;}
+.autokutu table tr#baslik {color:#fff; font:bold 15px tahoma;}
+.autokutu table {border-radius:20px;}
+.autokutu table tr#veriler {color:white; font:12px tahoma; background:#333; transition:0.3s;}
+.autokutu table tr#veriler td:hover {background:grey; transition:0.3s;}
+.autokutu table tr#fiyatlar {color:white; font: bold 20px tahoma; transition:0.3s;}
+.autokutu table tr#kampanya {color:white; background:#333; font: bold 25px tahoma; transition:0.3s;}
+.autokutu table tr#kampanya td:hover {background:grey;color:white; border:1px solid #fff; transition:0.3s;}
+.cptablo { background:#666; width:800px; height:600px; margin: 0 auto ;}
+.androiduyg { width:710px;  height:580px; margin:10px auto 0 auto; background:#d21; padding:20px 0 0 30px;  }
+
+.uyg1 { width:200px; height:200px; background:#000; float:left; margin: 0 30px 0 10px}
+.uyg2 { width:200px; height:200px; background:#fff; float:left; margin: 0 30px 0 0}
+.uyg3 { width:200px; height:200px; background:#000; float:left; margin: 0 30px 0 0}
+.kutu2 { width:240px;height:300px; background:#000; margin:-380px auto 0 20px; border-radius:25px;}
+.kutu2ust {width:240px;height:50px;background:#03C; border-radius:25px 25px 0 0 ; transition:0.3s;  padding:25px 0 0 0; }
+.kutu2ust:hover {background:#09F; transition:0.4s;}
+.kutu2ust a:hover , .kutu2ust2 a:hover  {;transition:0.2s; color:#FFF}
+.kutu2ust2 {width:240px;height:50px;background:#C90;transition:0.3s;padding:25px 0 0 0;}
+.kutu2ust2:hover {background:#FC0;transition:0.3s;}
+.kutu2ust a , .kutu2ust2 a , .kutu2alt1 a, .kutu2alt2 a{color:#fff; text-decoration:none; font:bold 18px verdana; transition:0.2s;}
+.kutu2alt1 {width:240px;height:50px;background:#6C0; transition:0.3s;padding:25px 0 0 0;}
+.kutu2alt1:hover{background:#6F0; transition:0.3s; color:#fff;}
+.kutu2alt1 a:hover {color:#fff;}
+.kutu2alt2 {width:240px;height:50px;background:#C0F;; transition:0.3s;padding:25px 0 0 0; border-radius:0 0 20px 20px;}
+.kutu2alt2:hover{background:#C6F;; transition:0.3s; color:#fff;}
+.kutu2alt2 a:hover {color:#fff;}
